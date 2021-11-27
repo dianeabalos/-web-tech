@@ -1,0 +1,205 @@
+html {
+  border-top: 8px solid rgb(108, 34, 108);
+}
+h1 {
+  color: rgb(83, 170, 194);
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+h2,
+h3 {
+  color: rgb(83, 170, 194);
+}
+
+a:hover {
+  font-size: large;
+}
+
+a:link {
+  background-color: transparent;
+  color: rgb(83, 170, 194);
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.ref {
+  left: auto;
+  margin-left: 0%;
+  padding-bottom: 10px;
+}
+a:visited {
+  color: rgb(83, 170, 194);
+}
+
+a:active {
+  background-color: yellow;
+}
+
+h1::after {
+  content: "TOP";
+  background-color: rgb(242, 213, 96);
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  padding: 5px;
+  float: right;
+}
+
+div {
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.variable1 {
+  padding: 8px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+}
+h4 {
+  color: rgb(83, 170, 194);
+  width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+header {
+  padding: 10px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  border-width: thick;
+}
+
+.but {
+  font-size: larger;
+}
+
+.topic {
+  color: black;
+}
+.related {
+  color: black;
+  padding-left: 10px;
+}
+
+.comm {
+  clear: both;
+}
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgb(83, 170, 194);
+  border-style: block;
+  border-width: thick;
+}
+
+.post {
+  padding-top: 0%;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  word-spacing: normal;
+}
+.new {
+  color: rgb(83, 170, 194);
+}
+
+.pics {
+  float: left;
+  padding-left: 10px;
+}
+
+.comments {
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.datatype {
+  padding: 13px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.tutorials::before {
+  content: "HOT";
+  background-color: rgb(242, 213, 96);
+  font-size: 11px;
+  color: black;
+  position: top;
+  padding: 5px;
+  float: right;
+  right: 20px;
+}
+.tutorials {
+  font-size: smaller;
+  border-top: solid rgb(83, 170, 194);
+  border-bottom: solid rgb(83, 170, 194);
+  background-color: rgb(247, 247, 248);
+  height: 280px;
+  width: 220px;
+  position: absolute;
+  top: 395px;
+  background: rgb(247, 247, 248);
+  float: left;
+  clear: both;
+  margin: 60px;
+}
+h4 {
+  float: left;
+}
+
+.side {
+  padding: 10px;
+  left: 10px;
+}
+
+nav {
+  color: solid rgb(83, 170, 194);
+  position: absolute;
+  float: left;
+  font-size: 15px;
+  left: 120px;
+  padding: 10px;
+}
+
+.topics {
+  color: rgb(83, 170, 194);
+  font-size: smaller;
+  border-top: solid rgb(83, 170, 194);
+  border-bottom: solid red;
+  background-color: rgb(247, 247, 248);
+  height: 320px;
+  width: 180px;
+  position: absolute;
+  background: rgb(247, 247, 248);
+  padding: 20px;
+  float: left;
+  left: 70px;
+}
+
+.foot {
+  float: left;
+  clear: both;
+  margin-top: auto;
+  position: relative;
+  overflow: auto;
+  min-width: 500px;
+  margin: 50px;
+}
+footer {
+  top: 1000px;
+  font-size: 9px;
+}
